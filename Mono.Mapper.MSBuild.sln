@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Mapper.MSBuild", "Mono.Mapper.MSBuild\Mono.Mapper.MSBuild.csproj", "{D2DA57D9-B79D-419F-B637-596A326D7553}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{F2550E81-C003-418A-A17F-515CCE16D565}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mono.Mapper", "Mono.Mapper\Mono.Mapper.csproj", "{3B0759DD-A477-4821-B3F2-E4B65D2357D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{D2DA57D9-B79D-419F-B637-596A326D7553}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2DA57D9-B79D-419F-B637-596A326D7553}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2DA57D9-B79D-419F-B637-596A326D7553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B0759DD-A477-4821-B3F2-E4B65D2357D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B0759DD-A477-4821-B3F2-E4B65D2357D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B0759DD-A477-4821-B3F2-E4B65D2357D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B0759DD-A477-4821-B3F2-E4B65D2357D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B0759DD-A477-4821-B3F2-E4B65D2357D7} = {F2550E81-C003-418A-A17F-515CCE16D565}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E9FCBD8-9C5E-45C8-B16D-96B1E15DC796}
